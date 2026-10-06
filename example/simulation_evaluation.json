@@ -1,0 +1,387 @@
+{
+  "settings": {
+    "seed": 7,
+    "founders": 5,
+    "coverage": 15,
+    "scope": "BODY only",
+    "synthesis": true,
+    "syn_sub": 0.0001,
+    "syn_ins": 0.0001,
+    "syn_del": 0.001,
+    "storage": false,
+    "storage_sub": 0.0001,
+    "storage_ct": 0.001,
+    "pcr": true,
+    "cycles": 5,
+    "efficiency": 0.8,
+    "pcr_sub": 1e-05,
+    "pcr_ins": 0.0,
+    "pcr_del": 0.0,
+    "sequencing": true,
+    "seq_sub": 0.003,
+    "seq_ins": 0.0002,
+    "seq_del": 0.0002,
+    "quality_mode": "Error rate",
+    "q_profile": "Fixed Q",
+    "q_fixed": 30,
+    "q_start": 35,
+    "q_end": 20,
+    "q_std": 3.0,
+    "paired": true,
+    "read_length": 150,
+    "max_variants": 100000
+  },
+  "stages": [
+    {
+      "Stage": "Designed founders",
+      "molecules": 10,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "Synthesis",
+      "molecules": 10,
+      "variants": 10,
+      "oligos": 2,
+      "sub": 1
+    },
+    {
+      "Stage": "Storage",
+      "molecules": 10,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "PCR cycle 1",
+      "molecules": 20,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "PCR cycle 2",
+      "molecules": 34,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "PCR cycle 3",
+      "molecules": 61,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "PCR cycle 4",
+      "molecules": 110,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "PCR cycle 5",
+      "molecules": 197,
+      "variants": 10,
+      "oligos": 2
+    },
+    {
+      "Stage": "Sequencing",
+      "sub": 10,
+      "reads": 60
+    }
+  ],
+  "trace": [
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "Designed founders",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 1
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "Synthesis",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 1
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "Storage",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 1
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "PCR cycle 1",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 2
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "PCR cycle 2",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 3
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "PCR cycle 3",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 5
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "PCR cycle 4",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 9
+    },
+    {
+      "sid": 0,
+      "founder": 0,
+      "stage": "PCR cycle 5",
+      "sequence": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+      "copies": 17
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "Designed founders",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 1
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "Synthesis",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 1
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "Storage",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 1
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "PCR cycle 1",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 2
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "PCR cycle 2",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 3
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "PCR cycle 3",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 5
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "PCR cycle 4",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 8
+    },
+    {
+      "sid": 1,
+      "founder": 0,
+      "stage": "PCR cycle 5",
+      "sequence": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA",
+      "copies": 13
+    }
+  ],
+  "truth": [
+    {
+      "unit": 0,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 1,
+      "sid": 0,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 2,
+      "sid": 1,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 3,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 4,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 5,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 6,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 7,
+      "sid": 1,
+      "founder": 0,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 8,
+      "sid": 1,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 9,
+      "sid": 1,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 10,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 11,
+      "sid": 0,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 12,
+      "sid": 1,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 13,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 14,
+      "sid": 1,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 15,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 16,
+      "sid": 0,
+      "founder": 0,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 17,
+      "sid": 0,
+      "founder": 4,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 18,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 19,
+      "sid": 1,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 20,
+      "sid": 0,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 21,
+      "sid": 0,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 22,
+      "sid": 1,
+      "founder": 0,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 23,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 24,
+      "sid": 0,
+      "founder": 3,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 25,
+      "sid": 1,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAATGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 26,
+      "sid": 1,
+      "founder": 2,
+      "template": "ACACGACGCTCTTCCGATCTTTGCTCAATTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGAAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 27,
+      "sid": 0,
+      "founder": 4,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 28,
+      "sid": 0,
+      "founder": 1,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    },
+    {
+      "unit": 29,
+      "sid": 0,
+      "founder": 4,
+      "template": "ACACGACGCTCTTCCGATCTGGAAGATTCACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCGAGATCGGAAGAGCACACGTCT"
+    }
+  ],
+  "note": "Fixed coverage per designed oligo. New event counts are not final edit distance. Defaults are synthetic scenarios, not vendor-calibrated."
+}

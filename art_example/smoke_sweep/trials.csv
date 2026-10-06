@@ -1,0 +1,5 @@
+seed,coverage,paired,mode,operational_error,file_exact,consensus_exact,missing_consensus,before_rate,after_rate,read_units,sequenced_nt,capped_units,decoder_status,OK,FAIL,AMBIGUOUS,SEARCH_LIMIT,seconds
+12345,5,True,cascade,,1,1,0,0.003289473684210526,0.0,5,1248,0,OK,1,0,0,0,1.8889236979998714
+12345,10,True,cascade,,1,1,0,0.003289473684210526,0.0,10,2496,0,OK,1,0,0,0,1.941457291000006
+12346,5,True,cascade,,1,1,0,0.0,0.0,5,1250,0,OK,1,0,0,0,1.3214713190000111
+12346,10,True,cascade,,1,1,0,0.002631578947368421,0.0,10,2500,0,OK,1,0,0,0,2.043860788999609

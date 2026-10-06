@@ -1,0 +1,147 @@
+{
+  "arguments": {
+    "strands": "/workspace/scratch/4bae7dea5a10/dna_storage_two_pages/art_example/prepared_strands.csv",
+    "settings": "/workspace/scratch/4bae7dea5a10/dna_storage_two_pages/art_example/decoder_settings.json",
+    "expected_hash": "dbbe3ab2aa6127b295a3c100ed6e30a46f7286d34ed647091c69d3a7dea4f5b9",
+    "mode": "cascade",
+    "coverage": "5,10",
+    "repeats": 2,
+    "seed": 12345,
+    "paired": true,
+    "length": 125,
+    "art": "",
+    "output": "/workspace/scratch/4bae7dea5a10/dna_storage_two_pages/art_example/smoke_sweep"
+  },
+  "public_settings": {
+    "codec": "TVH-V5.2 HEDges",
+    "fbr": "ACACGACGCTCTTCCGATCT",
+    "rbr": "AGATCGGAAGAGCACACGTCT",
+    "sid_mode": "Hamming (HD\u22653)",
+    "primer_edits": 2,
+    "si_edits": 1,
+    "max_edits": 1,
+    "min_q": 0,
+    "min_reads": 1,
+    "max_reads": 500,
+    "support": 0.6,
+    "method": "Quality-weighted voting",
+    "outlier_fraction": 0.25,
+    "min_overlap": 25,
+    "overlap_error": 0.15,
+    "expected_strands": 1,
+    "stored_bytes": 8,
+    "dna_length": 0,
+    "joint_si_body": false,
+    "rescue_uncertain": true,
+    "max_uncertain": 6,
+    "max_candidates": 256,
+    "search_seconds": 30.0
+  },
+  "art_settings": {
+    "executable": "",
+    "profile": "HS25",
+    "read_length": 125,
+    "paired": true,
+    "seed": 12345,
+    "q_shift_r1": 0,
+    "q_shift_r2": 0,
+    "short_policy": "Shorten reads to template",
+    "timeout_seconds": 300,
+    "insertion_r1": null,
+    "deletion_r1": null,
+    "insertion_r2": null,
+    "deletion_r2": null
+  },
+  "process_preset": {
+    "name": "dt4dds-derived \u00b7 material deposition + Q5 (simplified)",
+    "label": "dt4dds-derived \u00b7 material deposition + Q5 (simplified)",
+    "paper": "https://doi.org/10.1038/s41467-023-41729-1",
+    "repository": "https://github.com/fml-ethz/dt4dds",
+    "calibration": "Literature-derived simplified composite scenario; NOT a validated dt4dds reproduction or lab calibration.",
+    "overrides": {},
+    "parameters": [
+      {
+        "Process": "Synthesis",
+        "Parameter": "Deletion probability",
+        "Value": 0.0005695,
+        "Unit": "per base / synthesized copy",
+        "Source": "array_synthesis_twist.yaml",
+        "Status": "Literature-derived approximation",
+        "Implementation": "Independent deletion at each base; original base/run biases are NOT reproduced."
+      },
+      {
+        "Process": "Synthesis",
+        "Parameter": "Abundance lognormal sigma",
+        "Value": 0.3,
+        "Unit": "natural-log scale",
+        "Source": "array_synthesis_twist.yaml",
+        "Status": "Literature-derived approximation",
+        "Implementation": "Lognormal weights; allocate a fixed molecule budget, reserving one per SID. Not identical to dt4dds."
+      },
+      {
+        "Process": "Synthesis",
+        "Parameter": "Substitution / insertion",
+        "Value": 0.0,
+        "Unit": "per base",
+        "Source": "array_synthesis_twist.yaml",
+        "Status": "Source model choice",
+        "Implementation": "Zero is a modeling assumption, not a vendor zero-error guarantee."
+      },
+      {
+        "Process": "PCR",
+        "Parameter": "Q5 substitution probability",
+        "Value": 3.892857142857143e-07,
+        "Unit": "per newly copied base",
+        "Source": "pcr_Q5.yaml; processes/pcr.py",
+        "Status": "Literature-derived approximation",
+        "Implementation": "Base rate / relative fidelity. Applied to each child in a branching model; uniform substitution spectrum; not dt4dds aggregate-cycle implementation."
+      },
+      {
+        "Process": "PCR",
+        "Parameter": "Relative amplification-factor SD",
+        "Value": 0.0051,
+        "Unit": "relative factor",
+        "Source": "properties.yaml; processes/pcr.py",
+        "Status": "Literature-derived parameter",
+        "Implementation": "e_i=clip((1+e_mean)*Normal(1,SD)-1,0,1), fixed for a SID; inherited by its variants."
+      },
+      {
+        "Process": "Storage",
+        "Parameter": "Substitution rate per half-life",
+        "Value": 0.000164,
+        "Unit": "per base per half-life",
+        "Source": "aging.yaml; processes/aging.py",
+        "Status": "Literature-derived approximation",
+        "Implementation": "p=rate * exposure. Uniform substitution spectrum; source chemical/base bias is not reproduced. Optional whole-molecule survival 2**(-exposure) approximates loss, not fragment breakage."
+      },
+      {
+        "Process": "Storage",
+        "Parameter": "Default storage exposure",
+        "Value": 0.0,
+        "Unit": "exposure",
+        "Source": "User workflow assumption",
+        "Status": "Bypassed",
+        "Implementation": "Default zero exposure. Exposure is in half-lives, not years. C-to-T override is custom."
+      },
+      {
+        "Process": "Workflow",
+        "Parameter": "Founders / PCR cycles / mean efficiency",
+        "Value": "20 / 10 / 0.8",
+        "Unit": "molecules / cycles / probability",
+        "Source": "App scenario choices",
+        "Status": "Assumed; user-adjustable",
+        "Implementation": "Not claimed as the paper experimental protocol or real synthesis yield."
+      }
+    ],
+    "source_sha256": {
+      "aging.yaml": "78a5cdcd93fbcf6ce470191bb46ec177882519126eb4d4fadbb607ecf5844789",
+      "pcr_exo.yaml": "d0c5c05a8c2e6cc717c1253948566d2bb6e5aa9bdbc4d3e6be9623db3265537a",
+      "pcr_Q5.yaml": "a12b0eefd764629feb827dc7b923cd0aafb11c804e6c01de7f70f6ab9b6e3e63",
+      "pcr_taq.yaml": "446c4f1fbc4f08be18711fc80800c34fa881ca6fd18a41eb49b4ccb1156441b5",
+      "array_synthesis_twist.yaml": "7332db0c8accf14c3a047d12739942169b962862413fce40bdfeef43769107fe",
+      "properties.yaml": "c8fc77649b7c0bc5b575730980fbb74130feb02163b0641982489213207c672b"
+    }
+  },
+  "strands_sha256": "76cf546ee5ff30def30bfa99780202b58826a61762f42528a5b8e3c91a30e246",
+  "note": "Mode 2 uses total_units=coverage*designed_strands with unequal SID coverage. SE vs PE differ in nucleotide budget. All-zero-error successes do not establish a 99% reliability guarantee."
+}

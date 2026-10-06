@@ -1,0 +1,17 @@
+streamlit[pdf]>=1.49,<2
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.2,<4
+plotly>=5.24,<7
+pillow>=10,<13
+zstandard>=0.23,<1
+brotli>=1.1,<2
+biopython>=1.81,<2
+numba>=0.59,<1
+PyYAML>=6,<7
+rapidfuzz>=3,<4
+ruamel.yaml>=0.18,<1
+tqdm>=4.66,<5
+rich>=13,<15
+configargparse>=1.7,<2
+seqfold>=0.7,<1

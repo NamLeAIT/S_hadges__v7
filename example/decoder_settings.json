@@ -1,0 +1,21 @@
+{
+  "codec": "TVH-V5.2 HEDges",
+  "fbr": "ACACGACGCTCTTCCGATCT",
+  "rbr": "AGATCGGAAGAGCACACGTCT",
+  "sid_mode": "Hamming (HD\u22653)",
+  "primer_edits": 2,
+  "si_edits": 1,
+  "max_edits": 1,
+  "min_q": 0,
+  "min_reads": 1,
+  "max_reads": 100,
+  "support": 0.6,
+  "method": "Quality-weighted voting",
+  "outlier_fraction": 0.25,
+  "min_overlap": 25,
+  "overlap_error": 0.15,
+  "expected_strands": 2,
+  "stored_bytes": 20,
+  "dna_length": 0,
+  "joint_si_body": false
+}

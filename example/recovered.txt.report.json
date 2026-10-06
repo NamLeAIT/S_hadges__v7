@@ -1,0 +1,1333 @@
+{
+  "status": "OK",
+  "format": "UTF-8 text",
+  "extension": ".txt",
+  "mime": "text/plain",
+  "strand_results": [
+    {
+      "strand_id": 0,
+      "status": "OK",
+      "payload_bits": "0100010001001110010000010010000001110011011101000110111101110010011000010110011101100101001000000110010",
+      "edit_distance": 0,
+      "candidate_count": 1,
+      "states": 2443,
+      "selected_seed": 1
+    },
+    {
+      "strand_id": 1,
+      "status": "OK",
+      "payload_bits": "1011110000110000101101101011100000110110001100101001011101000000000000000000000000000000000000000000000",
+      "edit_distance": 0,
+      "candidate_count": 1,
+      "states": 2340,
+      "selected_seed": 7
+    }
+  ],
+  "validation_note": "Decoded candidate; exact byte equality requires an external hash check. Unknown final missing strands cannot be excluded when expected count is unspecified.",
+  "sha256": "d8c546404362f78f4593656d274f13fb620d857d12d977265eacf7f604d02602",
+  "consensus": {
+    "0": "CACGCTCGTGGTTTGGCCACGAAACAGTACCCTCATTGCATGGTATCTCATACAACAGTATGGAGCGCAATTTGCG",
+    "1": "TTGGGCCATGTACGCGAAACCTTGCCCTGTAATTATACCTTATTGAAGGCGCAGGTAAACTTGGTTGGGTAGCCGA"
+  },
+  "consensus_rows": [
+    {
+      "Strand ID": 0,
+      "Reads": 15,
+      "Consensus length": 76,
+      "Consensus status": "OK",
+      "used": 15,
+      "outliers": 0,
+      "capped": 0,
+      "uncertain": 0
+    },
+    {
+      "Strand ID": 1,
+      "Reads": 15,
+      "Consensus length": 76,
+      "Consensus status": "OK",
+      "used": 15,
+      "outliers": 0,
+      "capped": 0,
+      "uncertain": 0
+    }
+  ],
+  "positions": [
+    {
+      "Strand ID": 0,
+      "column": 1,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 2,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 3,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 4,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 5,
+      "base": "C",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 6,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 7,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 8,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 9,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 10,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 11,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 12,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 13,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 14,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 15,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 16,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 17,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 18,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 19,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 20,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 21,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 22,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 23,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 24,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 25,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 26,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 27,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 28,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 29,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 30,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 31,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 32,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 33,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 34,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 35,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 36,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 37,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 38,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 39,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 40,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 41,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 42,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 43,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 44,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 45,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 46,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 47,
+      "base": "C",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 48,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 49,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 50,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 51,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 52,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 53,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 54,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 55,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 56,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 57,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 58,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 59,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 60,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 61,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 62,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 63,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 64,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 65,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 66,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 67,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 68,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 69,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 70,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 71,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 72,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 73,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 74,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 75,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 0,
+      "column": 76,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 1,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 2,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 3,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 4,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 5,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 6,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 7,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 8,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 9,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 10,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 11,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 12,
+      "base": "A",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 13,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 14,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 15,
+      "base": "C",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 16,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 17,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 18,
+      "base": "A",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 19,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 20,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 21,
+      "base": "C",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 22,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 23,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 24,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 25,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 26,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 27,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 28,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 29,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 30,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 31,
+      "base": "A",
+      "base_support": 0.9333333333333333,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 32,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 33,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 34,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 35,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 36,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 37,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 38,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 39,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 40,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 41,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 42,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 43,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 44,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 45,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 46,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 47,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 48,
+      "base": "G",
+      "base_support": 0.6,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 49,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 50,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 51,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 52,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 53,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 54,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 55,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 56,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 57,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 58,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 59,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 60,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 61,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 62,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 63,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 64,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 65,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 66,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 67,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 68,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 69,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 70,
+      "base": "T",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 71,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 72,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 73,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 74,
+      "base": "C",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 75,
+      "base": "G",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    },
+    {
+      "Strand ID": 1,
+      "column": 76,
+      "base": "A",
+      "base_support": 1.0,
+      "gap_fraction": 0.0,
+      "reads": 15
+    }
+  ],
+  "read_stats": {
+    "input_units": 30,
+    "raw_reads": 60,
+    "assigned_units": 30,
+    "quality_filtered": 0,
+    "OK": 60,
+    "PAIRED_FULL_INSERT_SELECTION": 30
+  },
+  "settings": {
+    "codec": "TVH-V5.2 HEDges",
+    "fbr": "ACACGACGCTCTTCCGATCT",
+    "rbr": "AGATCGGAAGAGCACACGTCT",
+    "sid_mode": "Hamming (HD\u22653)",
+    "primer_edits": 2,
+    "si_edits": 1,
+    "max_edits": 1,
+    "min_q": 0,
+    "min_reads": 1,
+    "max_reads": 100,
+    "support": 0.6,
+    "method": "Quality-weighted voting",
+    "outlier_fraction": 0.25,
+    "min_overlap": 25,
+    "overlap_error": 0.15,
+    "expected_strands": 2,
+    "stored_bytes": 20,
+    "dna_length": 0,
+    "joint_si_body": false
+  },
+  "assignments": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "engine": "ART",
+  "settings": {
+    "executable": "",
+    "profile": "HS25",
+    "read_length": 125,
+    "paired": true,
+    "seed": 12346,
+    "q_shift_r1": 0,
+    "q_shift_r2": 0,
+    "short_policy": "Shorten reads to template",
+    "timeout_seconds": 300,
+    "insertion_r1": null,
+    "deletion_r1": null,
+    "insertion_r2": null,
+    "deletion_r2": null
+  },
+  "commands": [
+    {
+      "argv": [
+        "/workspace/scratch/4bae7dea5a10/art_runtime/root/usr/bin/art_illumina",
+        "-ss",
+        "HS25",
+        "-amp",
+        "-sam",
+        "-na",
+        "-i",
+        "input.fa",
+        "-l",
+        "125",
+        "-c",
+        "10",
+        "-rs",
+        "1209651363",
+        "-qs",
+        "0",
+        "-o",
+        "reads_",
+        "-p",
+        "-qs2",
+        "0"
+      ],
+      "template_ids": [
+        "v00000000"
+      ],
+      "input_sha256": "a17fd4ad0e1b06fa16adf0a31946022381824a8fbe47d7fd0adcce6eb2666af9"
+    }
+  ],
+  "logs": [
+    {
+      "batch": 0,
+      "stdout": "\n    ====================ART====================\n             ART_Illumina (2008-2016)          \n          Q Version 2.5.8 (June 6, 2016)       \n     Contact: Weichun Huang <whduke@gmail.com> \n    -------------------------------------------\n\n             Amplicon paired-end sequencing simulation\n\nTotal CPU time used: 0.007352\n\nThe random seed for the run: 1209651363\n\nParameters used during run\n\tRead Length:\t125\n\tGenome masking 'N' cutoff frequency: \t1 in 125\n\t# Read Pairs per Amplion:  0\n\tFirst quality shift:      0\n\tSecond quality shift:     0\n\tProfile Type:             Combined\n\tID Tag:                   \n\nQuality Profile(s)\n\tFirst Read:   HiSeq 2500 Length 126 R1 (built-in profile) \n\tFirst Read:   HiSeq 2500 Length 126 R2 (built-in profile) \n\nOutput files\n\n  FASTQ Sequence Files:\n\t the 1st reads: reads_1.fq\n\t the 2nd reads: reads_2.fq\n\n  SAM Alignment File:\n\treads_.sam\n\n",
+      "stderr": ""
+    }
+  ],
+  "executable_sha256": "177c372ca66645d8eb447d849e05b61f9d7b46ad6f7f9255bd2d4024940bf754",
+  "shortened_read_units": 0,
+  "total_read_units": 10,
+  "short_template_note": "Shortened reads are an explicit variable-length approximation, NOT an adapter/read-through simulation.",
+  "pairing_note": "One PE pair represents one sampled template; mates are not independent founder molecules."
+}

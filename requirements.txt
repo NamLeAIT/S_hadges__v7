@@ -1,0 +1,9 @@
+streamlit[pdf]>=1.49,<2
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.2,<4
+plotly>=5.24,<7
+pillow>=10,<13
+zstandard>=0.23,<1
+brotli>=1.1,<2
+dt4dds==1.1.0

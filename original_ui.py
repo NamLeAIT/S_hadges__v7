@@ -204,7 +204,7 @@ def _preview_bytes(data: bytes, name: str, mime: str | None = None, title: str =
                     with Image.open(io.BytesIO(data)) as image:
                         width, height = image.size
                     if max(width, height) <= 128:
-                        preview_width = width * 3
+                        preview_width = width * 8
                 except (OSError, ValueError):
                     pass
             st.image(data, caption=name, width=preview_width)

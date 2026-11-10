@@ -195,8 +195,19 @@ def _preview_bytes(data: bytes, name: str, mime: str | None = None, title: str =
     st.markdown(f"#### {title}")
     mime = mime or mimetypes.guess_type(name)[0] or "application/octet-stream"
     try:
+        # if mime.startswith("image/"):
+        #     st.image(data, caption=name, width="stretch")
         if mime.startswith("image/"):
-            st.image(data, caption=name, width="stretch")
+            preview_width = "content"
+            if Image is not None:
+                try:
+                    with Image.open(io.BytesIO(data)) as image:
+                        width, height = image.size
+                    if max(width, height) <= 128:
+                        preview_width = width * 2
+                except (OSError, ValueError):
+                    pass
+            st.image(data, caption=name, width=preview_width)
         elif mime.startswith("audio/"):
             st.audio(data, format=mime)
         elif mime.startswith("video/"):
